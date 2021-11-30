@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="Infinity Quo , moivation , Life coaching">
+	<meta name="author" content="Francois Mavunila">
+	<meta name="viewport" content="width=device-width , initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./public/stylesheets/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" type="text/css" href="./public/stylesheets/mainStyle.css">
+	<link rel="stylesheet" type="text/css" href="./public/stylesheets/about.css">
+	
+
+</head>
+<body>
+<script type="text/javascript" src="./public/stylesheets/bootstrap/js/jquery.js"></script>
+<script type="text/javascript" src="./public/stylesheets/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="./public/javascripts/ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="./public/stylesheets/crop/js/fineCrop.js"></script>
+<script type="text/javascript">
+
+	function dismSide(){
+		document.getElementById('menu_id').style.display ='none';
+		document.getElementById('logo_container').style.display ='inline-block';
+	}
+	function bringSide(){
+		document.getElementById('menu_id').style.display ='inline-block';
+		document.getElementById('logo_container').style.display ='none';
+	}
+</script>
+
+<nav class="nav_bar">
+	<button onclick="bringSide()"  id="toggle_btn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+			<span ><img src="./public/images/logo/humburger.png" height="20rem" alt="menu"></span>
+	</button>
+	<div class="nav_logo_container" id="logo_container">
+	<img class="nav_logo" src="./public/images/logo/LOGO1-nobg.png" alt="Infinity Quo">
+	</div>
+	
+       	<a href="./login.html"><button type="button" class="btn btn-default"  style="float:right;margin-top:1.2rem;" >login</button></a>
+			
+		
+		
+		<div class="menu" id="menu_id">
+		  <span class="cls_btn" id="close_x" onclick="dismSide()">&times;</span>
+		  <div  id="side_logo_container">
+			<img id="side_logo_img" src="./public/images/logo/LOGO1-nobg.png" alt="Infinity Quo">
+		  </div>
+		  <div class="navbar_list">
+				<a href="./home.html">HOME</a>
+			</div>	
+		 	<div class="navbar_list">
+				<a href="#aboutUs" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">ABOUT US</a>
+				<div id="aboutUs" class="dropdown_area collapse">
+					<p><a href="./about.html" id="lis">About Us</a></p>
+					<p><a href="./about.html/#clarion">Clarion Call</a></p>
+					<p><a href="./about.html/#our-team">Our Team</a></p>
+				</div>
+			</div>
+			<div class="navbar_list">
+			    <a href="./programs.html">PROGRAMS</a>	
+			</div>
+		</div>		
+</nav>
+<main >
+	 <h2 style="text-align:center;" class="spaceFromNav moreSpace" >life changing programs</h2><br>
+<div id="program_cards_container">
+	
+		<a href="./lesson.html">
+			<div class="program_cards">
+				<div class="program_cards_image">
+					<img src="./public/programs/program1/thumbnail.png" alt="program image here">
+				</div>
+				<div class="program_cards_head">
+			     <a  class="lead"> program1</a><br>
+			     <i class="fas fa-dot-circle" style="color:green;"><span style="color:#000000;font-weight: normal;font-style: italic;">available</span></i>
+	            </div>
+                 <div id="overlay" style="display: none;" class="overlay">
+		        </div>
+			   <div class="more_card" id="60d43548802b28175cdbd144" >
+			   	   <button type="button" style="color: #ffffff;float: right;" id="close_form" name="60d43548802b28175cdbd144" onclick="dismForm(this.name)">&times;</button><br>
+				  <p> <span class="titles">Title : </span>program1</p>	
+				  <hr style="background-color: #333333">
+				  <p class="titles">description :</p>  
+				  <p>&#39;;lkjhg</p>
+
+				  <hr style="background-color: #333333">
+				  <p><span class="titles">Price:</span> $2.50</p>
+
+			   </div>
+	        <button style="border-radius: 0"  name="60d43548802b28175cdbd144" onclick="displayForm(this.name)">more</button>
+		  </div>
+		</a>    
+		<a href="./lesson.html">
+			<div class="program_cards">
+				<div class="program_cards_image">
+					<img src="./public/programs/program2/thumbnail.png" alt="program image here">
+				</div>
+				<div class="program_cards_head">
+			     <a  class="lead"> program2</a><br>
+			     <i class="fas fa-dot-circle" style="color:green;"><span style="color:#000000;font-weight: normal;font-style: italic;">available</span></i>
+	            </div>
+                 <div id="overlay" style="display: none;" class="overlay">
+		        </div>
+			   <div class="more_card" id="6187c8403780e22fc42ce95c" >
+			   	   <button type="button" style="color: #ffffff;float: right;" id="close_form" name="6187c8403780e22fc42ce95c" onclick="dismForm(this.name)">&times;</button><br>
+				  <p> <span class="titles">Title : </span>program2</p>	
+				  <hr style="background-color: #333333">
+				  <p class="titles">description :</p>  
+				  <p>;lkajhjahkjhkjh&nbsp; jhwjhjwhwkdj</p>
+
+				  <hr style="background-color: #333333">
+				  <p><span class="titles">Price:</span> $23</p>
+
+			   </div>
+	        <button style="border-radius: 0"  name="6187c8403780e22fc42ce95c" onclick="displayForm(this.name)">more</button>
+		  </div>
+		</a>    
+		<a href="./lesson.html">
+			<div class="program_cards">
+				<div class="program_cards_image">
+					<img src="./public/programs/program3/thumbnail.png" alt="program image here">
+				</div>
+				<div class="program_cards_head">
+			     <a  class="lead"> program3</a><br>
+			     <i class="fas fa-dot-circle" style="color:green;"><span style="color:#000000;font-weight: normal;font-style: italic;">available</span></i>
+	            </div>
+                 <div id="overlay" style="display: none;" class="overlay">
+		        </div>
+			   <div class="more_card" id="6187c8e43780e22fc42ce95d" >
+			   	   <button type="button" style="color: #ffffff;float: right;" id="close_form" name="6187c8e43780e22fc42ce95d" onclick="dismForm(this.name)">&times;</button><br>
+				  <p> <span class="titles">Title : </span>program3</p>	
+				  <hr style="background-color: #333333">
+				  <p class="titles">description :</p>  
+				  <p>jkghgaahjgahgajha</p>
+
+				  <hr style="background-color: #333333">
+				  <p><span class="titles">Price:</span> $23</p>
+
+			   </div>
+	        <button style="border-radius: 0"  name="6187c8e43780e22fc42ce95d" onclick="displayForm(this.name)">more</button>
+		  </div>
+		</a>    
+		<a href="./lesson.html">
+			<div class="program_cards">
+				<div class="program_cards_image">
+					<img src="./public/programs/program7/thumbnail.png" alt="program image here">
+				</div>
+				<div class="program_cards_head">
+			     <a  class="lead"> program7</a><br>
+			     <i class="fas fa-dot-circle" style="color:green;"><span style="color:#000000;font-weight: normal;font-style: italic;">available</span></i>
+	            </div>
+                 <div id="overlay" style="display: none;" class="overlay">
+		        </div>
+			   <div class="more_card" id="6187ca1f3780e22fc42ce963" >
+			   	   <button type="button" style="color: #ffffff;float: right;" id="close_form" name="6187ca1f3780e22fc42ce963" onclick="dismForm(this.name)">&times;</button><br>
+				  <p> <span class="titles">Title : </span>program7</p>	
+				  <hr style="background-color: #333333">
+				  <p class="titles">description :</p>  
+				  <p>khjgajhagajhgjhgaa</p>
+
+				  <hr style="background-color: #333333">
+				  <p><span class="titles">Price:</span> $1.33566</p>
+
+			   </div>
+	        <button style="border-radius: 0"  name="6187ca1f3780e22fc42ce963" onclick="displayForm(this.name)">more</button>
+		  </div>
+		</a>    
+</div>
+<hr>
+ <h2 style="text-align:center;">Upcoming Programs</h2><br>
+<div  id="program_cards_container">
+	
+   	<br>
+	<br><br>
+	 <h4 style="text-align: center;">section for upcoming programs</h4>
+   </div>
+   <div style="display: none;top: 0;position: fixed;background-color: #222222;height: 100vh; width: 40%;height : 20%;top: 35%;left: 30%;text-align: center;" id="unAvailable">
+   	   <button type="button" style="color: #ffffff;float: right;" id="close_form" name="" onclick="dis(this.name)">&times;</button><br>
+   	 <h2 style="color:#ffffff">Program coming soon</h2>
+   </div>
+    
+<script type="text/javascript">
+	    function dis(){
+	     document.getElementById("unAvailable").style.display="none";	
+	    }
+	    function unAvailable(){
+         document.getElementById("unAvailable").style.display="block";
+	    }
+	  	function displayForm(id){
+      		document.getElementById("overlay").style.display="block";
+      		console.log(id);
+      		var more = document.getElementById(id);
+      		more.style.display="block";
+      	}
+      	function dismForm(id){
+      		document.getElementById("overlay").style.display="none";
+      	 document.getElementById(id).style.display="none";	
+      	}
+</script>
+</main>
+
+</body>
+</html>
